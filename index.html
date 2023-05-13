@@ -4,20 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#">Portfolio</a>
-        <ul class="menu_text">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Profil</a></li>
-            <li><a href="#">Projets</a></li>
+        <a class="tit_big" href="">Portfolio</a>
+        <ul>
+            <li><a href="#mega_box_accueil">Accueil</a></li>
+            <li><a href="#mega_box_profil">Profil</a></li>
+            <li><a href="#mega_box_projet">Projet</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </header>
+    <section class="mega_box_accueil" id="mega_box_accueil">
+        <div class="box_accueil">
+            <p>
+                <span class="txt1">Je m'appelle <span class="txt2">LAWANI Aboudou</span></span>
+            </p>
+            <p>  
+                étudiant en 1er année de BTS SIO .Option SLAM au <br>
+                Lycée Georges Brassens de Rive De Gier.
+            </p>
+            <a class="box_cv" href="Curriculum Vitae.pdf">Mon curriculum vitae</a>
+        </div>
+        <div class="box_image_accueil">
+            <img  class="image_accueil" src="photo.png" alt="moi">
+        </div>
+    </section>
+    <div class="box_logo">
+        <img src="github.png" alt="">
+        <img src="vscode.png" alt="">
+    </div>
+    <div class="mega_box_profil" id="mega_box_profil">
+        <div class="box_profil">
+            <div class="mini_box_profil1">
+                <img src="photo.jpg" alt="">
+                    <h1 class="titre1_box_profil1">Expériences :</h1>
+                <p class="txt1_box_profil1"> 
+                    Janv. 2022 <br>
+                    Stage informatique - NOTRE DAME de Fontenayle Comte <br>   
+                    Maintenance de Parc Informatiques <br><br>
+                    Sept. 2020 ; Mars. Et Juin. 2021 <br>
+                    Stage informatique - MAIRIE de Fontenayle Comte <br>
+                    Développement web : Travaille sur du HTML et CSS
+                    Maintenance Informatique : Installation et configuration de plus de 150 pc <br>
+                    dans les écoles de la ville <br><br>
+                    Déc. 2019 ; Nov. 2020 <br>
+                    Stage informatique - ALYATIS de Fontenayle Comte
+                    Montage/Configurations et mise à jour PC Fixe
+                    Assistance et Solution Informatique aux clients
+                </p>
+            </div>
+            <div class="mini_box_profil2">
+                <h1 class="titre1_box_profil2">Formations :</h1>
+                <p class="txt1_box_profil2"> 
+                    Sept. 2022 en cours<br>
+                    BTS SERVICES INFORMATIQUES AUX ORGANISATIONS<br>
+                    Option. SLAM (Solutions Logicielles Applications Métiers)<br>
+                    Lycée Georges Brassens – Rive de Gier<br><br>
+                    Juin. 2022<br>
+                    BAC PRO SYSTEME NUMERIQUES<br>
+                    Option. RISC (Réseaux Informatiques et Systèmes Communicants)<br>
+                    Lycée Gén & Pro. Jean Monnet - Les Herbiers<br><br>
+                    Juill. 2019<br>
+                    DIPLOME NATIONAL DE BREVET (DNB)<br>
+                    Collège François Viète - Fontenay le Comte<br>
+                </p>
+                <h1 class="titre2_box_profil2">Informatiques :</h1>
+                <p class="txt2_box_profil2">
+                    MySQL<br>
+                    PHP<br>
+                    Python<br>
+                    JavaScript<br>
+                    HTML<br>
+                    CSS<br>
+                    C#<br>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="box_deth1"></div>
+    <div class="mega_box_projet" id="mega_box_projet">
+        <div class="box_projet1">
+            <h1 class="tit_box_projet1">Monopoly :</h1>
+            <div class="img_projet1">
+                <img src="monopoly.png" alt="">
+            </div>
+            <p>
+                Une version simplifiée du jeu de société Monopoly crée en utilisant
+                le langage de programmation Python dans le cadre d’un projet scolaire.
+                Le jeu a implémenté des fonctionnalités telles que le lancement de dés,
+                le déplacement de pions, l’achat et la vente de propriétés, la collecte
+                de loyers et la gestion d’un budget. Ce projet a mis en pratique les
+                compétences en programmation, en résolution de problèmes et en conception 
+                tout en offrant une expérience éducative.
+            </p>   
+        </div>
+        <div class="box_projet2">
+            <h1 class="tit_box_projet2">AB store :</h1>
+            <div class="img_projet2">
+                <img src="site.png" alt="">
+            </div>
+            <p>
+                Création dans le cadre d’un projet scolaire un site web marchand de vente de chaussure 
+                en utilisant des technologies telles que le HTML, CSS, JavaScript et PHP.
+                Le site marchand présente une variété de chaussures, organisées par catégories
+                et marques. Ce projet a mis en pratique des compétences en développement web, en 
+                design et en marketing, tout en offrant une expérience immersive dans le monde du
+                commerce électronique.
+            </p>  
+        </div>
+        <div class="box_projet3">
+            <h1 class="tit_box_projet3">Portfolio :</h1>
+            <div class="img_projet3">
+                <img src="portfolio.png" alt="">
+            </div>
+            <p>
+                Création d’un portfolio en ligne pour présenter mes compétences, réalisations professionnelles
+                et personnelles, mes expériences et mes projets. J’ai utilisé des technologies telles que le
+                HTML, CSS et JavaScript pour créer un site web interactif et visuellement attractif. Le projet
+                a démontré ma maîtrise du développement web, de la conception de site web, de la création de
+                contenu, de la planification de projets et de la communication.
+            </p>        
+        </div>
+    </div>
+    <div class="box_deth2"></div>
+    <footer>
+        <p>Des mises à jours sont à venir .</p>
+    </footer>
 </body>
 </html>
