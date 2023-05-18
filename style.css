@@ -32,6 +32,7 @@ header{
     z-index: 1000;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* border-bottom: 1px solid; */
     background-color: #1f1f21;
 }
@@ -165,7 +166,7 @@ section{
 /* Debut profil1 */
 .mega_box_profil{
     width: 100%;
-    height: 88.8vh;
+    height: 90.5vh;
     /* background-color: blue; */
     display: flex;
     justify-content: center;
@@ -187,11 +188,12 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    gap: 8px;
     align-items: center;
     background: rgba(255, 255, 255, 0.801);
     padding: 0px 2%;
     border-radius: 20px;
+    /* background-color: #F31F53; */
 }
 .mini_box_profil1 img{
     width: 200px;
@@ -201,7 +203,7 @@ section{
 .titre1_box_profil1{
     width: 100%;
     color: #F31F53;
-    padding-top: 20px;
+    /* padding-top: 15px; */
     font-size: 28px;
     font-weight: 400;
 }
@@ -221,10 +223,11 @@ section{
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
-    gap: 40px;
+    /* gap: 40px; */
     background: rgba(255, 255, 255, 0.801);
     padding: 10px 2%;
     border-radius: 20px;
+    /* background-color: aqua; */
 }
 .titre1_box_profil2{
     width: 100%;
@@ -285,6 +288,7 @@ section{
     padding-top: 20px;
     padding-left: 1%;
     padding-right: 1%;
+    gap: 15px;
     align-items: center;
     background: rgba(255, 255, 255, 0.801);
     transition: all transform; 
@@ -311,8 +315,8 @@ section{
     /* text-justify: auto; */
 }
 .img_projet1{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     border-radius: 13px;
     cursor: pointer;
     object-fit: contain;
@@ -331,6 +335,7 @@ section{
     padding-top: 20px;
     padding-left: 1%;
     padding-right: 1%;
+    gap: 15px;
     align-items: center;
     background: rgba(255, 255, 255, 0.801);
     transition: all transform; 
@@ -356,8 +361,8 @@ section{
     text-align: justify;
 }
 .img_projet2{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     border-radius: 13px;
     cursor: pointer;
     object-fit: contain;
@@ -376,6 +381,7 @@ section{
     padding-top: 20px;
     padding-left: 1%;
     padding-right: 1%;
+    gap: 15px;
     align-items: center;
     background: rgba(255, 255, 255, 0.801);
     transition: all transform; 
@@ -401,8 +407,8 @@ section{
     text-align: justify;
 }
 .img_projet3{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     border-radius: 13px;
     cursor: pointer;
     object-fit: contain;
@@ -421,16 +427,110 @@ section{
     height: 8vh;
 }
 
-/* Debut de la apge Contact */
-section{
+
+/* Debut de la page stage */
+.mega_box_stage{
     width: 100%;
     height: 95vh;
+    padding-top: 80px;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1423f1;
+    background-color: #f1e214;
 }
+.box_stage{
+    width: 100%;
+    height: 90%;
+    background-color: #f13514;
+}
+/* Fin de la page stage */
+
+
+
+/* Debut de la apge Contact */
+.mega_box_contact{
+    width: 100%;
+    height: 95vh;
+    /* padding-top: 90px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f1e214; */
+}
+.box_contact{
+    width: 100%;
+    height: 47%;
+    position: relative;
+    /* background-color: aqua; */
+}
+.tit_contact{
+    width: 100%;
+    height: 15%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 100px; */
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    color: #1f1f21;
+    background: rgba(255, 255, 255, 0.801);
+    
+}
+.box_formulaire{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;    
+}
+.formulaire{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: solid;
+    padding: 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire .champ1{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    color: #F31F53;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.formulaire .champ3{
+    width: 100%;
+    padding: 5px 5px;
+    padding-bottom: 50px;
+    color: #F31F53;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+/* Fin de la page contact */
+
+
+
 footer{
     width: 100%;
     height: 5vh;
