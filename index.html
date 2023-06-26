@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a class="tit_big" href="">Portfolio</a>
-        <ul>
+    <header class="flexSpaceBetween">
+        <a href="">Portfolio</a>
+        <ul class="flexOnly">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="index.html#box_deth0">Profil</a></li>
             <li><a href="index.html#box_deth1">Projet</a></li>
@@ -22,70 +22,72 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
-    <section class="mega_box_accueil" id="mega_box_accueil">
+    <section class="mega_box_accueil flexSpaceBetween" id="mega_box_accueil">
         <div class="box_accueil">
             <p>
                 <span class="txt1">Je m'appelle <span class="txt2">LAWANI Aboudou</span></span>
             </p>
             <p>  
-                étudiant en 1er année de BTS SIO .Option SLAM au <br>
+                étudiant en 1er année de BTS SIO .Option SLAM au <br/>
                 Lycée Georges Brassens de Rive De Gier.
             </p>
-            <a class="box_cv" href="Curriculum Vitae.pdf">Mon curriculum vitae</a>
+            <a class="box_cv flexCenter" href="Curriculum Vitae.pdf">Mon curriculum vitae</a>
         </div>
         <div class="box_image_accueil">
             <img  class="image_accueil" src="img/photo.png" alt="moi">
         </div>
     </section>
-    <div class="box_logo">
-        <img src="github.png" alt="">
-        <img src="vscode.png" alt="">
+    <div class="box_logo flexCenter">
+        <img src="img/github.png" alt="">
+        <img src="img/vscode.png" alt="">
     </div>
     <div class="box_deth0" id="box_deth0"></div>
-    <div class="mega_box_profil" id="mega_box_profil">
-        <div class="box_profil">
-            <div class="mini_box_profil1">
-                <img src="img/photo.jpg" alt="">
-                    <h1 class="titre1_box_profil1">Expériences :</h1>
+    <div class="mega_box_profil flexCenter" id="mega_box_profil">
+        <div class="box_profil flexCenter">
+            <div class="mini_box_profil1 flexCenter">
                 <p class="txt1_box_profil1"> 
-                    Janv. 2022 <br>
-                    Stage informatique - NOTRE DAME de Fontenayle Comte <br>   
-                    Maintenance de Parc Informatiques <br><br>
-                    Sept. 2020 ; Mars. Et Juin. 2021 <br>
-                    Stage informatique - MAIRIE de Fontenayle Comte <br>
+                    <span>Expériences :</span><br/>
+                    Mai. 2023 <br/>
+                    Stage informatique - Octacom de Andrézieux-Bouthéon <br/>   
+                    Développement web <br/><br/>
+                    Janv. 2022 <br/>
+                    Stage informatique - NOTRE DAME de Fontenayle Comte <br/>   
+                    Maintenance de Parc Informatiques <br/><br/>
+                    Sept. 2020 ; Mars. Et Juin. 2021 <br/>
+                    Stage informatique - MAIRIE de Fontenayle Comte <br/>
                     Développement web : Travaille sur du HTML et CSS
-                    Maintenance Informatique : Installation et configuration de plus de 150 pc <br>
-                    dans les écoles de la ville <br><br>
-                    Déc. 2019 ; Nov. 2020 <br>
+                    Maintenance Informatique : Installation et configuration de plus de 150 pc <br/>
+                    dans les écoles de la ville <br/><br/>
+                    Déc. 2019 ; Nov. 2020 <br/>
                     Stage informatique - ALYATIS de Fontenayle Comte
                     Montage/Configurations et mise à jour PC Fixe
                     Assistance et Solution Informatique aux clients
                 </p>
             </div>
             <div class="mini_box_profil2">
-                <h1 class="titre1_box_profil2">Formations :</h1>
                 <p class="txt1_box_profil2"> 
-                    Sept. 2022 en cours<br>
-                    BTS SERVICES INFORMATIQUES AUX ORGANISATIONS<br>
-                    Option. SLAM (Solutions Logicielles Applications Métiers)<br>
-                    Lycée Georges Brassens – Rive de Gier<br><br>
-                    Juin. 2022<br>
-                    BAC PRO SYSTEME NUMERIQUES<br>
-                    Option. RISC (Réseaux Informatiques et Systèmes Communicants)<br>
-                    Lycée Gén & Pro. Jean Monnet - Les Herbiers<br><br>
-                    Juill. 2019<br>
-                    DIPLOME NATIONAL DE BREVET (DNB)<br>
-                    Collège François Viète - Fontenay le Comte<br>
+                    <span>Formations :</span><br/>
+                    Sept. 2022 en cours<br/>
+                    BTS SERVICES INFORMATIQUES AUX ORGANISATIONS<br/>
+                    Option. SLAM (Solutions Logicielles Applications Métiers)<br/>
+                    Lycée Georges Brassens – Rive de Gier<br/><br/>
+                    Juin. 2022<br/>
+                    BAC PRO SYSTEME NUMERIQUES<br/>
+                    Option. RISC (Réseaux Informatiques et Systèmes Communicants)<br/>
+                    Lycée Gén & Pro. Jean Monnet - Les Herbiers<br/><br/>
+                    Juill. 2019<br/>
+                    DIPLOME NATIONAL DE BREVET (DNB)<br/>
+                    Collège François Viète - Fontenay le Comte<br/>
                 </p>
-                <h1 class="titre2_box_profil2">Informatiques :</h1>
                 <p class="txt2_box_profil2">
-                    MySQL<br>
-                    PHP<br>
-                    Python<br>
-                    JavaScript<br>
-                    HTML<br>
-                    CSS<br>
-                    C#<br>
+                    <span>Informatiques :</span><br/>
+                    MySQL<br/>
+                    PHP<br/>
+                    Python<br/>
+                    JavaScript<br/>
+                    HTML<br/>
+                    CSS<br/>
+                    C#<br/>
                 </p>
             </div>
 
