@@ -119,7 +119,7 @@ section{
     width: 300px;
 }
 .image_accueil{
-    border-radius: 300px;
+    border-radius: 117px;
 }
 /* Fin Accueil */
 
@@ -130,9 +130,9 @@ section{
     width: 5%;
     position: absolute; 
     top: 0;
-    bottom: 0;
+    bottom: 18px;
     flex-direction: column;
-    gap: 20px;
+    gap: 9px;
     margin-left: 10%;
     /* background-color: aqua; */
 }
@@ -145,68 +145,28 @@ section{
 .mega_box_profil{
     width: 100%;
     height: 90.5vh;
+    gap: 10;
     /* background-color: blue; */
 }
 .box_profil{
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
     height: 99%;
     background: rgba(255, 255, 255, 0.274);
     border-radius: 30px;
     gap: 10px;
 }
-.mini_box_profil1{
-    width: 49%;
-    height: 95%;
-    flex-direction: column;
-    /* gap: 70px; */
-    background: rgba(255, 255, 255, 0.801);
-    padding: 0px 20px;
-    border-radius: 20px;
-    /* background-color: #F31F53; */
+.box_profil img{
+    width: 550px;
+    height: 700px;
 }
-.mini_box_profil1 p span{
-    width: 100%;
-    color: #F31F53;
-    font-size: 1.7rem;
+.box_profil a{
+    width: 200px;
+    height: 50px;
 }
-.txt1_box_profil1{
-    color: black;
-    /* padding-left: 3.1%; */
-    /* padding-top: 10px; */
-}
-/* Fin profil1 */
-/* Debut profil2 */
-.mini_box_profil2{
-    width: 49%;
-    height: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.801);
-    padding: 0px 20px;
-    border-radius: 20px;
-    /* background-color: aqua; */
-}
-.mini_box_profil2 p span{
-    width: 100%;
-    color: #F31F53;
-    font-size: 1.7rem;
-}
-.txt1_box_profil2{
-    color: black;
-    /* font-size: 14px;
-    font-weight: 400;*/
-    padding-bottom: 50px; 
-}
-.titre2_box_profil2 span{
-    width: 100%;
-    color: #F31F53;
-    font-size: 1.7rem;
-}
-.txt2_box_profil2{
-    color: black;
-}
-/* Fin profil2 */
 /* Fin de la page profil */
 
 
@@ -385,12 +345,10 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f1e214;
 }
 .box_stage{
     width: 100%;
     height: 90%;
-    background-color: #f13514;
 }
 /* Fin de la page stage */
 
