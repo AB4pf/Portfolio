@@ -2,107 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="flexSpaceBetween">
-        <a href="">Portfolio</a>
-        <ul class="flexOnly">
+    <header class="flex header-contain">
+        <h1><a href="index.html"><span>Portfolio</span></a></h1>
+        <ul class="flex header-child">
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="index.html#box_deth1">Port de Compétence</a></li>
-            <li><a href="stage.html">Épreuve E4</a></li>
-            <li><a href="stage.html">Épreuve E5</a></li>
-            <li><a href="stage.html">Veille</a></li>
-            <li><a href="index.html#box_deth0">CV</a></li>
+            <li><a href="index.html#port-de-competence">Port de Compétence</a></li>
+            <li><a href="e4.html">Épreuve E4</a></li>
+            <li><a href="e5.html">Épreuve E5</a></li>
+            <li><a href="veille.html">Veille</a></li>
+            <li><a href="Curriculum Vitae.pdf" target="_blank">CV</a></li>
         </ul>
     </header>
-    <section class="mega_box_accueil flexSpaceBetween" id="mega_box_accueil">
-        <div class="box_accueil">
-            <p>
-                <span class="txt1">I'm <span class="txt2">LAWANI Aboudou</span></span>
-            </p>
-            <p>  
-                Étudiant en 1er année de BTS SIO .Option SLAM au <br/>
-                Lycée Georges Brassens de Rive De Gier.
+    <section class="flex contain-section">
+        <div class="flex contain-accueil">
+            <p><em>I'm <span>LAWANI Aboudou</span></em> <br>Étudiant en BTS SIO .Option SLAM au<br/> 
+            Lycée Georges Brassens de Rive De Gier.
             </p>
         </div>
-        <div class="box_image_accueil">
-            <img  class="image_accueil" src="img/photo.png" alt="moi">
+        <div class="flex contain-accueil">
+            <img  class="image_accueil" src="img/photo.png" alt="Image">
         </div>
     </section>
-    <div class="box_logo flexCenter">
-        <img src="img/github.png" alt="">
-        <img src="img/vscode.png" alt="">
-    </div>
-    
-    <div class="box_deth1" id="box_deth1"></div>
-    <div class="mega_box_projet" id="mega_box_projet">
-        <div class="box_projet1">
-            <h1 class="tit_box_projet1">Monopoly :</h1>
-            <a href="https://github.com/AB4pf/monopoly.git">
-                <div class="img_projet1">
-                    <img src="img/monopoly.png" alt="monopoly">
-                </div>
-            </a>
-            <p>
-                Une version simplifiée du jeu de société Monopoly crée en utilisant
-                le langage de programmation Python dans le cadre d’un projet scolaire.
-                Le jeu a implémenté des fonctionnalités telles que le lancement de dés,
-                le déplacement de pions, l’achat et la vente de propriétés, la collecte
-                de loyers et la gestion d’un budget. Ce projet a mis en pratique les
-                compétences en programmation, en résolution de problèmes et en conception 
-                tout en offrant une expérience éducative.
-            </p>   
-        </div>
-        <div class="box_projet2">
-            <h1 class="tit_box_projet2">AB store :</h1>
-            <a href="https://github.com/AB4pf/AB-store.git">
-                <div class="img_projet2">
-                    <img src="img/site.png" alt="site web">
-                </div>
-            </a>
-            <p>
-                Création dans le cadre d’un projet scolaire un site web marchand de vente de chaussure 
-                en utilisant des technologies telles que le HTML, CSS, JavaScript et PHP.
-                Le site marchand présente une variété de chaussures, organisées par catégories
-                et marques. Ce projet a mis en pratique des compétences en développement web, en 
-                design et en marketing, tout en offrant une expérience immersive dans le monde du
-                commerce électronique.
-            </p>  
-        </div>
-        <div class="box_projet3">
-            <h1 class="tit_box_projet3">Portfolio :</h1>
-            <a href="index.html">
-                <div class="img_projet3">
-                    <img src="img/portfolio.png" alt="portfolio">
-                </div>
-            </a> 
-            <p>
-                Création d’un portfolio en ligne pour présenter mes compétences, réalisations professionnelles
-                et personnelles, mes expériences et mes projets. J’ai utilisé des technologies telles que le
-                HTML, CSS et JavaScript pour créer un site web interactif et visuellement attractif. Le projet
-                a démontré ma maîtrise du développement web, de la conception de site web, de la création de
-                contenu, de la planification de projets et de la communication.
-            </p>        
-        </div>
-    </div>
-    <div class="box_deth0" id="box_deth0"></div>
-    <div class="mega_box_profil flexCenter" id="mega_box_profil">
-        <div class="box_profil">
-            <img src="img/Capture.PNG" alt="img-cv">
-            <a class="box_cv flexCenter" href="Curriculum Vitae.pdf">Télécharger</a>
-        </div>
-    </div>
-    <div class="box_deth2"></div>
+    <section class="flex contain-port-de-competence" id="port-de-competence">
+        
+    </section>
     <footer>
         <p>Des mises à jours sont à venir .</p>
-    </footer>
+    </footer> 
 </body>
 </html>
